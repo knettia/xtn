@@ -1,0 +1,49 @@
+[
+    {
+      "id": 1,
+      "sentences": [
+        { "text": "Hello!", "speaker": 1 },
+        { "text": "How are you?", "speaker": 2 }
+      ],
+      "options": [
+        { "text": "I'm good", "nextDialogueId": 2 },
+        { "text": "Not so well", "nextDialogueId": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "sentences": [
+        { "text": "That's great!", "speaker": 1 },
+        { "text": "See you later!", "speaker": 2 }
+      ],
+      "options": []
+    },
+    {
+      "id": 3,
+      "sentences": [
+        { "text": "Oh no!", "speaker": 1 },
+        { "text": "What happened?", "speaker": 2 }
+      ],
+      "options": [
+        { "text": "I lost my keys", "nextDialogueId": 4 },
+        { "text": "Just having a bad day", "nextDialogueId": 5 }
+      ]
+    },
+    {
+      "id": 4,
+      "sentences": [
+        { "text": "That's unfortunate", "speaker": 1 },
+        { "text": "Hope you find them soon!", "speaker": 2 }
+      ],
+      "options": []
+    },
+    {
+      "id": 5,
+      "sentences": [
+        { "text": "I'm sorry to hear that", "speaker": 1 },
+        { "text": "Is there anything I can do to help?", "speaker": 2 }
+      ],
+      "options": []
+    }
+  ]
+  
