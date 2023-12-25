@@ -1,5 +1,6 @@
 const dialoguePath = 'path/to/your/file.json';
-let dialogueData;
+let dialogueData = [];
+
 fetch("res/dialogues.json")
   .then(response => {
     if (!response.ok) {
