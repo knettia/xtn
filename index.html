@@ -26,11 +26,16 @@
       overflow-y: auto;
     }
 
+    .content-box p {
+      margin: 0; /* Remove default margin for paragraphs */
+      padding: 2px; /* Adjust the padding between text elements */
+    }
+
     .button-box {
         margin-top: 1%;
         display: flex;
         background-color: black;
-        border: 1px solid white;
+        border: 2px solid white;
         flex-direction: column; /* Buttons appear underneath each other */
         align-items: flex-start; /* Align buttons to the left */
         width: 50%; /* Set the width to match the content box */
@@ -53,7 +58,7 @@
 </head>
 <body>
   <div class="content-box" id="contentBox"></div>
-  <div class="button-box"> </div>
+  <div class="button-box" id="buttonBox"> </div>
 
   <script src="src/main.js"></script>
 </body>
