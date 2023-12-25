@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         setTimeout(function () {
           addText(element, text, index + 1, speaker);
-        }, 1);
+        }, 25);
       } else {
         drawingSentence = false;
       }
