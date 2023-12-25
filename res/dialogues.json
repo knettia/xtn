@@ -2,48 +2,776 @@
     {
       "id": 1,
       "sentences": [
-        { "text": "Hello!", "speaker": 1 },
-        { "text": "How are you?", "speaker": 2 }
+        {
+          "text": "@ Your adventure starts here, be brave and fight to save Rafiq Stoicadius.",
+          "speaker": 0
+        },
+        {
+          "text": "@ ... Finally, you're able to prove everyone you have what it takes to be a true noble.",
+          "speaker": 0
+        },
+        {
+          "text": "@ You're walking alone in a nearby bar, to ask some people for some help.",
+          "speaker": 0
+        },
+        {
+          "text": "@ (and to get wasted)",
+          "speaker": 0
+        },
+        {
+          "text": "@ Entering, a man catches your attention...",
+          "speaker": 0
+        },
+        {
+          "text": "<???> Abort you baffoon!",
+          "speaker": 1
+        },
+        {
+          "text": "<???> Mercy me, I'm working with complete imbeciles.",
+          "speaker": 1
+        },
+        {
+          "text": "@ Being intrigued trying to realize who he's talking to,",
+          "speaker": 0
+        },
+        {
+          "text": "@ you accidentally bumped into him.",
+          "speaker": 0
+        },
+        {
+          "text": "<???> Ahh! Bloody hell, watch your step young man.",
+          "speaker": 1
+        }
       ],
       "options": [
-        { "text": "I'm good", "nextDialogueId": 2 },
-        { "text": "Not so well", "nextDialogueId": 3 }
+        {
+          "text": "I'm sorry, who are you?",
+          "endID": 2
+        },
+        {
+          "text": "Watch where *you* step, sir!",
+          "endID": 7
+        }
       ]
     },
     {
       "id": 2,
       "sentences": [
-        { "text": "That's great!", "speaker": 1 },
-        { "text": "See you later!", "speaker": 2 }
+        {
+          "text": "<X> I'm sorry, who are you?",
+          "speaker": 2
+        },
+        {
+          "text": "<???> Oh, good geavens above!",
+          "speaker": 1
+        },
+        {
+          "text": "<???> Y-you don't know who I am?!?",
+          "speaker": 1
+        },
+        {
+          "text": "<???> Then allow me to enlighten you, poor soul...",
+          "speaker": 1
+        },
+        {
+          "text": "<M> I am Maxerius Infinitus...",
+          "speaker": 1
+        },
+        {
+          "text": "<M> A gentleman of the highest order!",
+          "speaker": 1
+        },
+        {
+          "text": "<M> Remember me, as encountering one of such elevated standing is a rare privilage I say.",
+          "speaker": 1
+        }
       ],
-      "options": []
+      "options": [
+        {
+          "text": "@ Introduce yourself.",
+          "endID": 3
+        }
+      ]
     },
     {
       "id": 3,
       "sentences": [
-        { "text": "Oh no!", "speaker": 1 },
-        { "text": "What happened?", "speaker": 2 }
+        {
+          "text": "<X> I am \"so honoured\" to meet you, sir.",
+          "speaker": 2
+        },
+        {
+          "text": "<X> My name's Marcellus Andronie, here to save Rafiq Soicadius.",
+          "speaker": 2
+        },
+        {
+          "text": "<M> You? To save king Rafaello?? Don't make me laugh too hard,",
+          "speaker": 1
+        },
+        {
+          "text": "<M> I don't like flattery.",
+          "speaker": 1
+        }
       ],
       "options": [
-        { "text": "I lost my keys", "nextDialogueId": 4 },
-        { "text": "Just having a bad day", "nextDialogueId": 5 }
+        {
+          "text": "Introduce yourself.",
+          "endID": 4
+        }
       ]
     },
     {
       "id": 4,
       "sentences": [
-        { "text": "That's unfortunate", "speaker": 1 },
-        { "text": "Hope you find them soon!", "speaker": 2 }
+        {
+          "text": "<X> I'm serious.",
+          "speaker": 2
+        },
+        {
+          "text": "<X> I am trying to prove that I'm worthy enough,",
+          "speaker": 2
+        },
+        {
+          "text": "<X> to be noble.",
+          "speaker": 2
+        },
+        {
+          "text": "<M> Pfft, what a child's story",
+          "speaker": 1
+        },
+        {
+          "text": "<M> You think you can just stroll into the palace willy-nilly and save the king?",
+          "speaker": 1
+        },
+        {
+          "text": "<M> It takes finesse, intellect, and a sexy body like mine.",
+          "speaker": 1
+        },
+        {
+          "text": "<M> Stuff you clearly lack, monkey.",
+          "speaker": 1
+        },
+        {
+          "text": "<X> ...",
+          "speaker": 2
+        },
+        {
+          "text": "<M> Nevertheless, I am in need of some publicity.",
+          "speaker": 1
+        },
+        {
+          "text": "<M> Maybe I, Maxerius Infinitus, could be the one who saves Rafiq..",
+          "speaker": 1
+        }
       ],
-      "options": []
+      "options": [
+        {
+          "text": "What?? You're stealing my idea?",
+          "endID": 5
+        },
+        {
+          "text": "Can I come with you..?",
+          "endID": 6
+        }
+      ]
     },
     {
       "id": 5,
       "sentences": [
-        { "text": "I'm sorry to hear that", "speaker": 1 },
-        { "text": "Is there anything I can do to help?", "speaker": 2 }
+        {
+          "text": "<X> What?? You're stealing my idea?",
+          "speaker": 2
+        },
+        {
+          "text": "<M> Yore idea? Yore idea was unaccomplishable.",
+          "speaker": 1
+        },
+        {
+          "text": "<M> My idea is one that actually deserves merit.",
+          "speaker": 1
+        },
+        {
+          "text": "<X> Not cool dude.",
+          "speaker": 2
+        },
+        {
+          "text": "<X> Not cool...",
+          "speaker": 2
+        },
+        {
+          "text": "<M> Don't start crying, little girl.",
+          "speaker": 1
+        },
+        {
+          "text": "<M> Let's go together in this marvelous adventure. :3",
+          "speaker": 1
+        },
+        {
+          "text": "@ Could this be, Maxerius being nice?",
+          "speaker": 0
+        },
+        {
+          "text": "<X> Y-you really mean that? :>",
+          "speaker": 2
+        },
+        {
+          "text": "<M> NO??? LOL XD",
+          "speaker": 1
+        }
       ],
-      "options": []
+      "options": [
+        {
+          "text": "@ Continue",
+          "endID": 8
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "sentences": [
+        {
+          "text": "<X> Can I come with you...?",
+          "speaker": 2
+        },
+        {
+          "text": "<M> Come with me? Yore idea was laughable, but let's not dwell on that.",
+          "speaker": 1
+        },
+        {
+          "text": "<M> Fine, you can tag along, but don't slow me down.",
+          "speaker": 1
+        },
+        {
+          "text": "<X> Really? Thanks, Maxerius!",
+          "speaker": 2
+        },
+        {
+          "text": "<X> I won't let you down!",
+          "speaker": 2
+        },
+        {
+          "text": "<M> Don't get too excited, we're not on a picnic.",
+          "speaker": 1
+        },
+        {
+          "text": "<M> This adventure requires competence, something I doubt you possess...",
+          "speaker": 1
+        },
+        {
+          "text": "@ Could this be, Maxerius being somewhat considerate?",
+          "speaker": 0
+        },
+        {
+          "text": "<X> I'll do my best to prove myself!",
+          "speaker": 2
+        },
+        {
+          "text": "<M> Yore 'best' may not be enough, but we shall see.",
+          "speaker": 1
+        }
+      ],
+      "options": [
+        {
+          "text": "@ Continue.",
+          "endID": 8
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "sentences": [
+        {
+          "text": "<X> Watch where *you* step, sir!",
+          "speaker": 2
+        },
+        {
+          "text": "<X> Do you often collide with people in such fashion?",
+          "speaker": 2
+        },
+        {
+          "text": "<???> Collide? COLLIDE?!?",
+          "speaker": 1
+        },
+        {
+          "text": "<M> I, Maxerius Infinitus, do not \"collide\" with anyone.",
+          "speaker": 1
+        },
+        {
+          "text": "<M> Now, run along before you tarnish the air with yore pedestrian presence.",
+          "speaker": 1
+        }
+      ],
+      "options": [
+        {
+          "text": "@ Introduce yourself.",
+          "endID": 3
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "sentences": [
+        {
+          "text": "@ You and Maxerius leave the bar.",
+          "speaker": 0
+        },
+        {
+          "text": "<M> Say, if I bring you to someone special, you won't tell anyone?",
+          "speaker": 1
+        },
+        {
+          "text": "<X> Huh? Yeah, I promise.",
+          "speaker": 2
+        },
+        {
+          "text": "@ Maxerius brings you to the town square,",
+          "speaker": 0
+        },
+        {
+          "text": "@ here you meet with one of his people.",
+          "speaker": 0
+        },
+        {
+          "text": "<M> Sellington Shakespear! Haven't seen you on for some time..",
+          "speaker": 1
+        },
+        {
+          "text": "<S> Maxerius? Thou dost have the gall to show thy face here again.",
+          "speaker": 3
+        },
+        {
+          "text": "<S> Who is that creature thou brought here?",
+          "speaker": 3
+        },
+        {
+          "text": "<M> Sellington, this is my new maid, Marcellus Andronie.",
+          "speaker": 1
+        },
+        {
+          "text": "<X> Maid?!?",
+          "speaker": 2
+        },
+        {
+          "text": "<S> A new maid thou sayest? Wish I might procure such a servant in these times.",
+          "speaker": 3
+        },
+        {
+          "text": "<S> What purpose dost thou bring this fellow here for, and how may I assist thee?",
+          "speaker": 3
+        },
+        {
+          "text": "<X> I never agreed to this Maxerius.",
+          "speaker": 2
+        },
+        {
+          "text": "<M> You can give us some last known whereabouts of the king.",
+          "speaker": 1
+        },
+        {
+          "text": "<M> You are the keeper of the king's guards after all.",
+          "speaker": 1
+        },
+        {
+          "text": "<S> I see. Thou understandest any whereabouts I give can get me executed?",
+          "speaker": 3
+        },
+        {
+          "text": "<M> Sellington, come on. Would I really do this to a friend I've had for 20 years?",
+          "speaker": 1
+        },
+        {
+          "text": "<S> Last time I saw thee, thou left me to die in the forest nearby...",
+          "speaker": 3
+        },
+        {
+          "text": "<S> So much for thy plan to capture the bears' berries.",
+          "speaker": 3
+        },
+        {
+          "text": "<M> o_O",
+          "speaker": 1
+        },
+        {
+          "text": "<X> Let me talk, Maxerius, \"Selly,\" please help me.",
+          "speaker": 2
+        },
+        {
+          "text": "<X> I really need to help the king.",
+          "speaker": 2
+        },
+        {
+          "text": "<S> Well, so m2ch 5(r 3he br21k@n he324t I h1ve.",
+          "speaker": 3
+        },
+        {
+          "text": "<S> I can help thee if 4hou b51ng 2e my st4sh",
+          "speaker": 3
+        },
+        {
+          "text": "<X> ..?",
+          "speaker": 2
+        },
+        {
+          "text": "@ Shellington appears to be having a stroke",
+          "speaker": 0
+        },
+        {
+          "text": "<S> Last time I saw the king, he was in his bathtub, drinking wine.",
+          "speaker": 3
+        },
+        {
+          "text": "<S> I'm sorry, there's no information I can give thee, as I simply don't know.",
+          "speaker": 3
+        }
+      ],
+      "options": [
+        {
+          "text": "@ Make a silly connection.",
+          "endID": 9
+        },
+        {
+          "text": "@ Go investigate the bathtub.",
+          "endID": 10
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "sentences": [
+        {
+          "text": "<X> Wine in a bathtub? Living large in the castle.",
+          "speaker": 2
+        },
+        {
+          "text": "<X> Picture this: a royal bath, a fine bottle, maybe a royal rubber duck.",
+          "speaker": 2
+        },
+        {
+          "text": "<X> Splashing spirits? Could lead to a nearby storage room.",
+          "speaker": 2
+        },
+        {
+          "text": "<X> I'm sure he's in one...",
+          "speaker": 2
+        },
+        {
+          "text": "<M> Marcellus? That's the stupidest thing I've ever heard.",
+          "speaker": 1
+        },
+        {
+          "text": "<X> Let's go and find the storage room!",
+          "speaker": 2
+        },
+        {
+          "text": "<X> Sellington, do you want to come with us?",
+          "speaker": 2
+        },
+        {
+          "text": "<S> I'm afraid I can't, for I have plans to DESTROY Maxerius.",
+          "speaker": 3
+        },
+        {
+          "text": "<M> Hmph.",
+          "speaker": 1
+        },
+        {
+          "text": "<X> Oh well, good luck with your plan, maybe when Maxerius and I finish,",
+          "speaker": 2
+        },
+        {
+          "text": "<X> I can help you with it!",
+          "speaker": 2
+        },
+        {
+          "text": "<S> Wonderful...",
+          "speaker": 3
+        }
+      ],
+      "options": [
+        {
+          "text": "@ Continue.",
+          "endID": 11
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "sentences": [
+        {
+          "text": "@ You and Maxerius enter the Rafiq's castle, and enter his royal bathroom,",
+          "speaker": 0
+        },
+        {
+          "text": "@ hoping you would find some good clues. ",
+          "speaker": 0
+        },
+        {
+          "text": "<M> There seems to be nothing but bathwater here.",
+          "speaker": 1
+        },
+        {
+          "text": "<X> I'm sure there's something which can help us.",
+          "speaker": 2
+        },
+        {
+          "text": "<M> Help us my arse, everything here smells like wine...",
+          "speaker": 1
+        },
+        {
+          "text": "<M> I'm really in the mood for some wine.",
+          "speaker": 1
+        },
+        {
+          "text": "<X> Maybe we can take a break and drink some of the king's.",
+          "speaker": 2
+        }
+      ],
+      "options": [
+        {
+          "text": "@ Continue.",
+          "endID": 11
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "sentences": [
+        {
+          "text": "@ Both of you search for the storage room inside Rafiq's castle.",
+          "speaker": 0
+        },
+        {
+          "text": "@ The smell of expensive wine sure does make it easy ;)",
+          "speaker": 0
+        },
+        {
+          "text": "<X> There it is!",
+          "speaker": 2
+        },
+        {
+          "text": "<Q> Halt, you will not be passing me to get to the wine.",
+          "speaker": 4
+        },
+        {
+          "text": "<M> AHHH! You, sir, are a complete nuisance to my operation.",
+          "speaker": 1
+        },
+        {
+          "text": "<Q> I am no nuisance, I am the protector of the storage room.",
+          "speaker": 4
+        },
+        {
+          "text": "<Q> I am Liviu Andrei Racovita, Esquire... ",
+          "speaker": 4
+        },
+        {
+          "text": "<Q> But you can call me IDETESTROSE.",
+          "speaker": 4
+        },
+        {
+          "text": "<X> Ide-what?",
+          "speaker": 2
+        },
+        {
+          "text": "<M> I don't have time for this nonsense. Young Marcellus, you're a pretty funny peasant.",
+          "speaker": 1
+        },
+        {
+          "text": "<X> Uhhh...",
+          "speaker": 2
+        },
+        {
+          "text": "<X> Why did the wine bottle go to therapy..?",
+          "speaker": 2
+        },
+        {
+          "text": "<X> Because it had too many issues?",
+          "speaker": 2
+        },
+        {
+          "text": "@ IDETESTROSE looked dead straight into Marcellus eyes.",
+          "speaker": 0
+        },
+        {
+          "text": "<X> ...",
+          "speaker": 2
+        },
+        {
+          "text": "@ The silence was deafening.",
+          "speaker": 0
+        },
+        {
+          "text": "<Q> HAHAHAHAHAHAHAQHUWUHOERGIORWJGOWEIJFWEI!!1!",
+          "speaker": 4
+        },
+        {
+          "text": "@ It appears IDETESTROSE was laughing too much.",
+          "speaker": 0
+        },
+        {
+          "text": "<Q> BahahaHAHahHAh!!",
+          "speaker": 4
+        },
+        {
+          "text": "@ IDETESTROSE died from suffocating.",
+          "speaker": 0
+        }
+      ],
+      "options": [
+        {
+          "text": "@ Enter the storage room.",
+          "endID": 12
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "sentences": [
+        {
+          "text": "@ You have entered the storage room...",
+          "speaker": 5
+        },
+        {
+          "text": "@ Something doesn't feel quite right...",
+          "speaker": 5
+        },
+        {
+          "text": "@ You see a figure in the shadows, resembling a man...",
+          "speaker": 5
+        },
+        {
+          "text": "@ Could this be..? Rafiq was here..??",
+          "speaker": 5
+        },
+        {
+          "text": "@ He appeared to be held hostage, barely able to move..",
+          "speaker": 5
+        },
+        {
+          "text": "@ As you approach him, you begin to see his face...",
+          "speaker": 5
+        },
+        {
+          "text": "@ It was Rafiq...",
+          "speaker": 5
+        },
+        {
+          "text": "<X> Rafiq!! My king!!",
+          "speaker": 2
+        },
+        {
+          "text": "@ You could see his beautiful face once more...",
+          "speaker": 5
+        },
+        {
+          "text": "@ You could kiss it right now...",
+          "speaker": 5
+        },
+        {
+          "text": "@ But you see something in his eyes...",
+          "speaker": 5
+        },
+        {
+          "text": "@ His eyes depict... Terror...",
+          "speaker": 5
+        },
+        {
+          "text": "@ And in his pupils, you can see the reflection...",
+          "speaker": 5
+        },
+        {
+          "text": "@ ...",
+          "speaker": 5
+        },
+        {
+          "text": "@ Maxerius Infinius",
+          "speaker": 5
+        },
+        {
+          "text": "@ .",
+          "speaker": 5
+        },
+        {
+          "text": "@ .",
+          "speaker": 5
+        },
+        {
+          "text": "@ .",
+          "speaker": 5
+        }
+      ],
+      "options": [
+        {
+          "text": "This... Can't... Be...",
+          "endID": 13
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "sentences": [
+        {
+          "text": "<X> This... Can't... Be...",
+          "speaker": 2
+        },
+        {
+          "text": "<M> Can't be what... Marcellus?",
+          "speaker": 6
+        },
+        {
+          "text": "<X> You did this??",
+          "speaker": 2
+        },
+        {
+          "text": "<M> I did what I had to.",
+          "speaker": 6
+        },
+        {
+          "text": "<M> As my hero once said...",
+          "speaker": 6
+        },
+        {
+          "text": "<M> \"Life on a fast track changes you...\" - Middle-Aged Lightning Mcqueen.",
+          "speaker": 6
+        },
+        {
+          "text": "<X> No...",
+          "speaker": 2
+        },
+        {
+          "text": "<M> Now look at me, Marcellus...",
+          "speaker": 6
+        },
+        {
+          "text": "<M> I...",
+          "speaker": 6
+        },
+        {
+          "text": "<M> Own...",
+          "speaker": 6
+        },
+        {
+          "text": "<M> You...",
+          "speaker": 6
+        },
+        {
+          "text": "<M> Now...",
+          "speaker": 6
+        },
+        {
+          "text": "@ You look at king Rafaello in fear.",
+          "speaker": 5
+        },
+        {
+          "text": "To be continued :3",
+          "speaker": 10
+        }
+      ],
+      "options": [
+        {
+          "text": "This... Can't... Be...",
+          "endID": 100
+        }
+      ]
     }
   ]
-  
