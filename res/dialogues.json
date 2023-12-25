@@ -573,7 +573,11 @@
           "speaker": 2
         },
         {
-          "text": "<M> I don't have time for this nonsense. Young Marcellus, you're a pretty funny peasant.",
+          "text": "<M> I don't have time for this nonsense. Marcellus, you're a pretty funny peasant.",
+          "speaker": 1
+        },
+        {
+          "text": "<M> I'm sure you have a peculiar joke to tell this man.",
           "speaker": 1
         },
         {
@@ -764,14 +768,9 @@
         },
         {
           "text": "To be continued :3",
-          "speaker": 10
+          "speaker": 0
         }
       ],
-      "options": [
-        {
-          "text": "This... Can't... Be...",
-          "endID": 100
-        }
-      ]
+      "options": []
     }
   ]
